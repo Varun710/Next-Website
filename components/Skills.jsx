@@ -15,7 +15,7 @@ import Dart from "../public/assets/skills/dart.png";
 import Docker from "../public/assets/skills/docker.png";
 import Flask from "../public/assets/skills/flask.svg";
 import Flutter from "../public/assets/skills/flutter.png";
-import Jenkins from "../public/assets/skills/Jenkins.png";
+import Jenkins from "../public/assets/skills/jenkins.png";
 import Mongo from "../public/assets/skills/mongo.png";
 import Node from "../public/assets/skills/node.png";
 import Restful from "../public/assets/skills/restful.png";

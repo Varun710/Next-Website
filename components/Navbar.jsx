@@ -152,7 +152,7 @@ const Navbar = () => {
                 offset={0}
                 duration={100}
               >
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-base">
                   Home
                 </li>
               </Link>
@@ -163,7 +163,7 @@ const Navbar = () => {
                 offset={0}
                 duration={100}
               >
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-base">
                   About
                 </li>
               </Link>
@@ -174,7 +174,7 @@ const Navbar = () => {
                 offset={0}
                 duration={100}
               >
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-base">
                   Projects
                 </li>
               </Link>
@@ -185,7 +185,7 @@ const Navbar = () => {
                 offset={0}
                 duration={100}
               >
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-base">
                   Skills
                 </li>
               </Link>
@@ -196,7 +196,7 @@ const Navbar = () => {
                 offset={0}
                 duration={100}
               >
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-base">
                   Contact
                 </li>
               </Link>

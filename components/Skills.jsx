@@ -95,8 +95,8 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src={AWS} width="64px" height="64px" alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+              <div className="flex flex-col text-sm sm:text-base items-center justify-center">
+                <h3>Amazon Web Services</h3>
               </div>
             </div>
           </div>

@@ -51,6 +51,7 @@ const About = () => {
               href="https://www.linkedin.com/in/varun-raghu/"
               target="_blank"
               rel="noreferrer"
+              aria-label="This link is used to open my LinkedIn profile"
             >
               <div className="mr-3 sm:mr-5 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 ">
                 <FaLinkedinIn />
@@ -60,6 +61,7 @@ const About = () => {
               href="https://github.com/Varun710"
               target="_blank"
               rel="noreferrer"
+              aria-label="This link is used to open my GitHub profile"
             >
               <div className="mr-3 sm:mr-5 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
@@ -69,6 +71,7 @@ const About = () => {
               href="mailto: varunraghu710@gmail.com"
               target="_blank"
               rel="noreferrer"
+              aria-label="This link is used to open my email"
             >
               <div className="mr-3 sm:mr-5 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
@@ -78,6 +81,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1U9gVXYyeEIMQ3PQZAbGtNjE6cVMpLs3U/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
+              aria-label="This link is used to open my resume"
             >
               <div className="mr-3 sm:mr-5 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />

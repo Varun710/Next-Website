@@ -34,7 +34,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
-        <Link to="home" spy={true} smooth={true} offset={0} duration={100}>
+        <a href="https://varunraghu.net/">
           <Image
             src={NavLogo}
             alt="logo"
@@ -42,7 +42,7 @@ const Navbar = () => {
             height="90"
             className="cursor-pointer bg-opacity-0"
           />
-        </Link>
+        </a>
         <div>
           <ul
             style={{ color: `${linkColor}` }}

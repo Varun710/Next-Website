@@ -3,7 +3,6 @@ import React from "react";
 import Twitter from "../public/assets/projects/website.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Java from "../public/assets/skills/Java.png";
 
 const portfolio = () => {
   return (

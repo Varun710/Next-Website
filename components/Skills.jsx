@@ -15,7 +15,6 @@ import Dart from "../public/assets/skills/dart.png";
 import Docker from "../public/assets/skills/docker.png";
 import Flask from "../public/assets/skills/flask.svg";
 import Flutter from "../public/assets/skills/flutter.png";
-import Jenkins from "../public/assets/skills/jenkins.png";
 import Mongo from "../public/assets/skills/mongo.png";
 import Node from "../public/assets/skills/node.png";
 import Restful from "../public/assets/skills/restful.png";
@@ -36,7 +35,7 @@ const Skills = () => {
                 <Image src={Java} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Java</h3>
+                <h2>Java</h2>
               </div>
             </div>
           </div>
@@ -48,7 +47,7 @@ const Skills = () => {
                 <Image src={Python} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Python</h3>
+                <h2>Python</h2>
               </div>
             </div>
           </div>
@@ -60,7 +59,7 @@ const Skills = () => {
                 <Image src={Javascript} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col text-sm sm:text-base items-center justify-center">
-                <h3>JavaScript</h3>
+                <h2>JavaScript</h2>
               </div>
             </div>
           </div>
@@ -72,7 +71,7 @@ const Skills = () => {
                 <Image src={Html} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h2>HTML</h2>
               </div>
             </div>
           </div>
@@ -84,7 +83,7 @@ const Skills = () => {
                 <Image src={Css} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+                <h2>CSS</h2>
               </div>
             </div>
           </div>
@@ -96,7 +95,7 @@ const Skills = () => {
                 <Image src={AWS} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col text-sm sm:text-base items-center justify-center">
-                <h3>Amazon Web Services</h3>
+                <h2>Amazon Web Services</h2>
               </div>
             </div>
           </div>
@@ -108,7 +107,7 @@ const Skills = () => {
                 <Image src={ReactImg} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>React Js</h3>
+                <h2>React Js</h2>
               </div>
             </div>
           </div>
@@ -120,7 +119,7 @@ const Skills = () => {
                 <Image src={NextJS} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Next Js</h3>
+                <h2>Next Js</h2>
               </div>
             </div>
           </div>
@@ -132,7 +131,7 @@ const Skills = () => {
                 <Image src={Tailwind} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h2>Tailwind</h2>
               </div>
             </div>
           </div>
@@ -144,7 +143,7 @@ const Skills = () => {
                 <Image src={MySQL} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>MySQL</h3>
+                <h2>MySQL</h2>
               </div>
             </div>
           </div>
@@ -156,7 +155,7 @@ const Skills = () => {
                 <Image src={Mongo} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Mongo</h3>
+                <h2>Mongo</h2>
               </div>
             </div>
           </div>
@@ -168,7 +167,7 @@ const Skills = () => {
                 <Image src={Node} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Node</h3>
+                <h2>Node</h2>
               </div>
             </div>
           </div>
@@ -180,7 +179,7 @@ const Skills = () => {
                 <Image src={Flutter} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Flutter</h3>
+                <h2>Flutter</h2>
               </div>
             </div>
           </div>
@@ -192,7 +191,7 @@ const Skills = () => {
                 <Image src={Dart} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Dart</h3>
+                <h2>Dart</h2>
               </div>
             </div>
           </div>
@@ -204,7 +203,7 @@ const Skills = () => {
                 <Image src={Restful} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>RESTful API</h3>
+                <h2>RESTful API</h2>
               </div>
             </div>
           </div>
@@ -216,7 +215,7 @@ const Skills = () => {
                 <Image src={Docker} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Docker</h3>
+                <h2>Docker</h2>
               </div>
             </div>
           </div>
@@ -228,7 +227,7 @@ const Skills = () => {
                 <Image src={Flask} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Flask</h3>
+                <h2>Flask</h2>
               </div>
             </div>
           </div>
@@ -240,7 +239,7 @@ const Skills = () => {
                 <Image src={Firebase} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
+                <h2>Firebase</h2>
               </div>
             </div>
           </div>
@@ -252,7 +251,7 @@ const Skills = () => {
                 <Image src={Github} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
+                <h2>Github</h2>
               </div>
             </div>
           </div>

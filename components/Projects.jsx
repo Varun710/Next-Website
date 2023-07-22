@@ -20,21 +20,25 @@ const Projects = () => {
             title="Twitter Streaming Using Big Data"
             backgroundImg={Twitter}
             projectUrl="/twitter"
+            ariaLabel="Twitter Streaming Using Big Data"
           />
           <ProjectItem
             title="Portfolio Website"
             backgroundImg={Website}
             projectUrl="/portfolio"
+            ariaLabel="Portfolio Website"
           />
           <ProjectItem
             title="Fake News Detection"
             backgroundImg={Fake}
             projectUrl="/fake"
+            ariaLabel="Fake News Detection"
           />
           <ProjectItem
             title="Student Assist App"
             backgroundImg={Student}
             projectUrl="/student"
+            ariaLabel="Student Assist App"
           />
         </div>
       </div>

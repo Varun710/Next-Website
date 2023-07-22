@@ -21,20 +21,33 @@ const About = () => {
           {/* About Content */}
 
           <p className="font-body mr-[5.5rem] ml-[-1rem] sm:mr-0 sm:ml-0 py-2 px-2 text-gray-600 text-justify">
-            My journey with programming started back in 2018 with an artificial
-            intelligence workshop. As an automobile engineer, I was always
-            passionate about cars and autonomous driving. After attending the
-            workshop, my interest in programming increased and I started
-            learning Python.
+            I'm a driven software engineer with a passion for developing
+            innovative solutions. I earned my Master's degree in Computer
+            Science from Illinois Institute of Technology. I have full-stack
+            development skills spanning Java, Python, JavaScript, and modern
+            frameworks like React.
           </p>
           <p className="font-body mr-[5.5rem] ml-[-1rem] sm:mr-0 sm:ml-0 py-2 px-2 text-gray-600 text-justify">
-            This led me to learn more about other areas of computer science. I
-            learnt languages like Java, Dart, HTML, CSS, JavaScript and started
-            applying the concepts in minor projects. Later I decided to pursue
-            master’s in computer science. During this program I implemented what
-            I learnt for coursework and personal projects. Since then, I have
-            been learning various languages and frameworks and have done
-            multiple certifications to improve my skillset.
+            I build scalable cloud-based solutions leveraging AWS services. I am
+            an AWS Certified Cloud Practitioner, with hands-on experience
+            architecting infrastructure and applications on AWS. My expertise
+            across the tech stack allows me to make optimal architectural
+            decisions. I advocate for best practices like CI/CD to enable robust
+            delivery pipelines. I have experience spearheading projects
+            end-to-end, from conception to delivery.
+          </p>
+
+          <p className="font-body mr-[5.5rem] ml-[-1rem] sm:mr-0 sm:ml-0 py-2 px-2 text-gray-600 text-justify">
+            I'm highly motivated to join a team where I can apply my full-stack
+            skills to build the next generation of products. I'm passionate
+            about using technology to solve real-world problems and make a
+            positive impact.
+          </p>
+
+          <p className="font-body mr-[5.5rem] ml-[-1rem] mb-[5rem] sm:mr-0 sm:ml-0 py-2 px-2 text-gray-600 text-justify">
+            Outside of programming, I enjoy exploring my creative side through
+            photography, getting lost in imaginative worlds through books, and
+            experimenting with flavors in the kitchen.
           </p>
         </div>
         <div className="mb-[8rem] mt-5 mr-[5.5rem] ml-[-1rem] sm:mr-0 sm:ml-0 md:mr-[6rem]">

@@ -10,11 +10,11 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full md:h-screen p-2 flex items-center py-16 px-[3rem]"
+      className="w-full md:h-screen md:pr-10 flex items-center py-16 pl-[3rem]"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <h1 className="text-[2.5rem] md:text-[3.4rem] tracking-widest text-black] ml-[-0.5rem] sm:px-2 sm:ml-0 md:ml-0">
+          <h1 className="text-[2.5rem] md:text-[3.4rem] tracking-widest text-black] ml-[-0.5rem] sm:ml-0 md:ml-0">
             About
           </h1>
 

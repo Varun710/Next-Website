@@ -1,49 +1,52 @@
 import React from "react";
-import Student from "../public/assets/projects/app.jpg";
-import Fake from "../public/assets/projects/fake.jpg";
-import Twitter from "../public/assets/projects/twitter.jpeg";
-import Website from "../public/assets/projects/website.jpg";
 import ProjectItem from "./ProjectItem";
-
-const Projects = () => {
+import website from "../public/assets/projects/website.jpg";
+import Heading from "./Heading";
+const projectsData = [
+  {
+    name: "Project 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    tools: "Spring Boot • React",
+    link: "https://example.com/project1",
+    img: website,
+  },
+  {
+    name: "Project 2",
+    description:
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    tools: "React • Node.js • MongoDB",
+    link: "https://example.com/project2",
+    img: website,
+  },
+  {
+    name: "Project 3",
+    description:
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    tools: "React • Node.js • MongoDB",
+    link: "https://example.com/project3",
+    img: website,
+  },
+  {
+    name: "Project 4",
+    description:
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    tools: "React • Node.js • MongoDB",
+    link: "https://example.com/project4",
+    img: website,
+  },
+];
+const Project = () => {
   return (
-    <div
-      id="projects"
-      className="w-full mt-[4rem] mb-[8rem] pt-[2rem] bg-gradient-to-b from-black to-black"
-    >
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-[2.5rem] pl-5 md:text-[3.4rem] tracking-widest  text-white pb-10">
-          Projects
-        </p>
-        <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Twitter Streaming Using Big Data"
-            backgroundImg={Twitter}
-            projectUrl="/twitter"
-            ariaLabel="Twitter Streaming Using Big Data"
-          />
-          <ProjectItem
-            title="Portfolio Website"
-            backgroundImg={Website}
-            projectUrl="/portfolio"
-            ariaLabel="Portfolio Website"
-          />
-          <ProjectItem
-            title="Fake News Detection"
-            backgroundImg={Fake}
-            projectUrl="/fake"
-            ariaLabel="Fake News Detection"
-          />
-          <ProjectItem
-            title="Student Assist App"
-            backgroundImg={Student}
-            projectUrl="/student"
-            ariaLabel="Student Assist App"
-          />
-        </div>
-      </div>
-    </div>
+    <section className=" mx-auto my-16 text-center bg-brown-custom text-white p-12">
+      {" "}
+      <Heading title="Projects" />{" "}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        {" "}
+        {projectsData.map((project, index) => (
+          <ProjectItem key={index} {...project} />
+        ))}{" "}
+      </div>{" "}
+    </section>
   );
 };
-
-export default Projects;
+export default Project;

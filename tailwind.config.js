@@ -25,7 +25,13 @@ module.exports = {
     fontFamily: {
       body: ["Mingzat"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "light-sandel": "#F3f3ef",
+        "brown-custom": "#c9af98",
+        "laundry-blue": "#3a4660",
+      },
+    },
   },
   plugins: [],
 };

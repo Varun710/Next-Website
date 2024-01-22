@@ -1,32 +1,38 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
-const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
+const Projects = ({ name, img, alt, link, tools = "" }) => {
+  const toolList = tools.split(" • ");
   return (
-    <div
-      className="relative flex items-center justify-center h-11/12 w-11/12 ml-[1rem] 
-    sm:h-full sm:w-full sm:pr-[2.7rem] md:pr-[2.7rem] rounded-xl group hover:bg-gradient-to-r 
-    from-[#e59d51] to-[#1d51c0]"
-    >
-      <Image
-        className="rounded-xl group-hover:opacity-10"
-        src={backgroundImg}
-        alt="/"
-      />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl text-white tracking-wider text-center">
-          {title}
+    <div className="group inline-block overflow-hidden duration-500 ease-linear">
+      <a target="_blank" rel="noreferrer" href={link} className="img">
+        <div className="overflow-hidden hover:rounded-xl duration-500">
+          <Image
+            className="w-full h-full object-cover duration-700 ease-in-out group-hover:scale-105"
+            src={img}
+            alt={alt}
+            width={800}
+            height={600}
+          />
+        </div>
+      </a>
+      <div className="mt-4">
+        <div className="flex space-x-2 mb-3">
+          {toolList.map((tool) => (
+            <div key={tool} className="tool">
+              <p className="rounded-full bg-transparent border border-secondary-600 flex justify-center items-center px-4 py-1 text-secondary-600 text-body-4 2xl:text-3xl">
+                {tool}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <h3 className="text-works-title 2xl:text-5xl font-medium uppercase text-primary-200">
+          {name}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">{tech}</p>
-        <Link href={projectUrl}>
-          <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-            More Info
-          </p>
-        </Link>
       </div>
     </div>
   );
 };
 
-export default ProjectItem;
+export default Projects;

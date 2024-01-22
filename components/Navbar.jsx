@@ -48,7 +48,30 @@ const Navbar = () => {
             style={{ color: `${linkColor}` }}
             className="cursor-pointer hidden md:flex"
           >
-            <li className="ml-10 text-m">
+            <li
+              className="ml-10 text-m capitalize
+                inline-block
+                relative
+                transition-all
+                duration-100
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-1.5
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-gray-600
+                before:via-slate-400
+                before:to-zinc-500
+                hover:before:w-full
+                hover:before:opacity-100"
+            >
               <Link
                 to="home"
                 spy={true}
@@ -59,7 +82,30 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="ml-10 text-m">
+            <li
+              className="ml-10 text-m capitalize
+                inline-block
+                relative
+                transition-all
+                duration-100
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-1.5
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-gray-600
+                before:via-slate-400
+                before:to-zinc-500
+                hover:before:w-full
+                hover:before:opacity-100"
+            >
               <Link
                 to="about"
                 spy={true}
@@ -70,7 +116,30 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li className="ml-10 text-m">
+            <li
+              className="ml-10 text-m capitalize
+                inline-block
+                relative
+                transition-all
+                duration-100
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-1.5
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-gray-600
+                before:via-slate-400
+                before:to-zinc-500
+                hover:before:w-full
+                hover:before:opacity-100"
+            >
               <Link
                 to="projects"
                 spy={true}
@@ -81,7 +150,30 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-            <li className="ml-10 text-m">
+            <li
+              className="ml-10 text-m capitalize
+                inline-block
+                relative
+                transition-all
+                duration-100
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-1.5
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-gray-600
+                before:via-slate-400
+                before:to-zinc-500
+                hover:before:w-full
+                hover:before:opacity-100"
+            >
               <Link
                 to="skills"
                 spy={true}
@@ -92,7 +184,30 @@ const Navbar = () => {
                 Skills
               </Link>
             </li>
-            <li className="ml-10 text-m">
+            <li
+              className="ml-10 text-m capitalize
+                inline-block
+                relative
+                transition-all
+                duration-100
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-1.5
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-gray-600
+                before:via-slate-400
+                before:to-zinc-500
+                hover:before:w-full
+                hover:before:opacity-100"
+            >
               <Link
                 to="contact"
                 spy={true}
@@ -126,15 +241,12 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              ? " fixed right-0 top-0 w-[55%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              : "fixed right-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <Image src={NavLogo} width="87" height="35" alt="/" />
-              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"

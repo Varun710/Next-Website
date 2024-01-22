@@ -37,9 +37,9 @@ const projectsData = [
 ];
 const Project = () => {
   return (
-    <section className=" mx-auto my-16 text-center bg-brown-custom text-white p-12">
+    <section className=" mx-auto my-16 text-center bg-black text-white p-12 flex-row">
       {" "}
-      <Heading title="Projects" />{" "}
+      <Heading title="Projects" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {" "}
         {projectsData.map((project, index) => (

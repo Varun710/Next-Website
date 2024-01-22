@@ -27,7 +27,7 @@ const Projects = ({ name, img, alt, link, tools = "" }) => {
           ))}
         </div>
 
-        <h3 className="text-works-title 2xl:text-5xl font-medium uppercase text-primary-200">
+        <h3 className="2xl:text-5xl font-medium uppercase text-primary-200">
           {name}
         </h3>
       </div>

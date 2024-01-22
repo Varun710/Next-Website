@@ -28,8 +28,8 @@ module.exports = {
     extend: {
       colors: {
         "light-sandel": "#F3f3ef",
-        "brown-custom": "#c9af98",
-        "laundry-blue": "#3a4660",
+        "brown-custom": "#393f4d",
+        "laundry-blue": "#bcbbac",
       },
     },
   },

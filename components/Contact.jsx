@@ -1,14 +1,11 @@
 import React from "react";
+import Heading from "./Heading";
 
 const Contact = () => {
   return (
     <div id="contact" className="w-full h-screen bg-black text-white">
       <div className="flex flex-col p-4 justify-center w-full h-screen">
-        <div className="pb-8 flex justify-center items-center">
-          <p className="text-[2.5rem] md:text-[3rem] lg:text-[3.4rem] tracking-widest border-gray-500">
-            Let's talk
-          </p>
-        </div>
+        <Heading title="Let's Talk" />
 
         <div className=" flex justify-center items-center">
           <form

@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.2",
+    "@next/font": "^13.1.2",
     "@studio-freight/lenis": "^1.0.34",
     "framer-motion": "^10.18.0",
     "gsap": "^3.12.5",
@@ -19,6 +19,7 @@
     "react-icons": "^4.7.1",
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
+    "sass": "^1.70.0",
     "sharp": "^0.31.3"
   },
   "devDependencies": {

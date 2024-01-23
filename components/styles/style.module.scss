@@ -1,0 +1,24 @@
+.paragraph {
+  display: flex;
+  font-size: 30px;
+  line-height: 1;
+  padding: 40px;
+  max-width: 1280px;
+  color: black;
+  flex-wrap: wrap;
+  text-justify: auto;
+  .word {
+    margin-right: 12px;
+    margin-top: 12px;
+    .shadow {
+      position: absolute;
+      opacity: 20%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .paragraph {
+    font-size: 15px;
+  }
+}

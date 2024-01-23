@@ -1,9 +1,13 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import NavLogo from "../public/assets/white.png";
 import { Link } from "react-scroll";
-
+import { Anton } from "@next/font/google";
+const anton = Anton({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [linkColor, setLinkColor] = useState("#ffffff");
@@ -34,7 +38,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
-        <a href="https://varunraghu.net/">
+        <a href="/">
           <Image
             src={NavLogo}
             alt="logo"
@@ -48,8 +52,9 @@ const Navbar = () => {
             style={{ color: `${linkColor}` }}
             className="cursor-pointer hidden md:flex"
           >
-            <li
-              className="ml-10 text-m capitalize
+            <div className={anton.className}>
+              <li
+                className="ml-10 text-m capitalize
                 inline-block
                 relative
                 transition-all
@@ -64,26 +69,32 @@ const Navbar = () => {
                 before:rounded-full
                 before:opacity-0
                 before:transition-all
-                before:duration-500
+                before:duration-300
                 before:bg-gradient-to-r
                 before:from-gray-600
                 before:via-slate-400
                 before:to-zinc-500
                 hover:before:w-full
                 hover:before:opacity-100"
-            >
-              <Link
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={100}
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                }}
               >
-                Home
-              </Link>
-            </li>
-            <li
-              className="ml-10 text-m capitalize
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={100}
+                >
+                  Home
+                </Link>
+              </li>
+            </div>
+            <div className={anton.className}>
+              <li
+                className="ml-10 text-m capitalize
                 inline-block
                 relative
                 transition-all
@@ -98,26 +109,32 @@ const Navbar = () => {
                 before:rounded-full
                 before:opacity-0
                 before:transition-all
-                before:duration-500
+                before:duration-300
                 before:bg-gradient-to-r
                 before:from-gray-600
                 before:via-slate-400
                 before:to-zinc-500
                 hover:before:w-full
                 hover:before:opacity-100"
-            >
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={100}
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                }}
               >
-                About
-              </Link>
-            </li>
-            <li
-              className="ml-10 text-m capitalize
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={100}
+                >
+                  About
+                </Link>
+              </li>
+            </div>
+            <div className={anton.className}>
+              <li
+                className="ml-10 text-m capitalize
                 inline-block
                 relative
                 transition-all
@@ -132,26 +149,32 @@ const Navbar = () => {
                 before:rounded-full
                 before:opacity-0
                 before:transition-all
-                before:duration-500
+                before:duration-300
                 before:bg-gradient-to-r
                 before:from-gray-600
                 before:via-slate-400
                 before:to-zinc-500
                 hover:before:w-full
                 hover:before:opacity-100"
-            >
-              <Link
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-20}
-                duration={100}
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                }}
               >
-                Projects
-              </Link>
-            </li>
-            <li
-              className="ml-10 text-m capitalize
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={100}
+                >
+                  Projects
+                </Link>
+              </li>
+            </div>
+            <div className={anton.className}>
+              <li
+                className="ml-10 text-m capitalize
                 inline-block
                 relative
                 transition-all
@@ -166,26 +189,32 @@ const Navbar = () => {
                 before:rounded-full
                 before:opacity-0
                 before:transition-all
-                before:duration-500
+                before:duration-300
                 before:bg-gradient-to-r
                 before:from-gray-600
                 before:via-slate-400
                 before:to-zinc-500
                 hover:before:w-full
                 hover:before:opacity-100"
-            >
-              <Link
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-90}
-                duration={100}
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                }}
               >
-                Skills
-              </Link>
-            </li>
-            <li
-              className="ml-10 text-m capitalize
+                <Link
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={100}
+                >
+                  Skills
+                </Link>
+              </li>
+            </div>
+            <div className={anton.className}>
+              <li
+                className="ml-10 text-m capitalize
                 inline-block
                 relative
                 transition-all
@@ -200,24 +229,29 @@ const Navbar = () => {
                 before:rounded-full
                 before:opacity-0
                 before:transition-all
-                before:duration-500
+                before:duration-300
                 before:bg-gradient-to-r
                 before:from-gray-600
                 before:via-slate-400
                 before:to-zinc-500
                 hover:before:w-full
                 hover:before:opacity-100"
-            >
-              <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={135}
-                duration={100}
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                }}
               >
-                Contact
-              </Link>
-            </li>
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={100}
+                >
+                  Contact
+                </Link>
+              </li>
+            </div>
           </ul>
           {/* Hamburger Icon */}
           <div

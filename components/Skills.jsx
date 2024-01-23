@@ -15,7 +15,7 @@ import Mongo from "../public/assets/skills/mongo.png";
 import Node from "../public/assets/skills/node.png";
 import Restful from "../public/assets/skills/restful.png";
 import MySQL from "../public/assets/skills/MySQL.png";
-import Heading from "./Heading";
+import Heading from "../components/helpers/Heading";
 
 const Skills = () => {
   return (

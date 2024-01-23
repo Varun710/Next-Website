@@ -4,14 +4,15 @@ import Heading from "./Heading";
 const Contact = () => {
   return (
     <div id="contact" className="w-full h-screen bg-black text-white">
-      <div className="flex flex-col p-4 justify-center w-full h-screen">
-        <Heading title="Let's Talk" />
-
+      <div className="flex flex-col px-12 mb-[2rem] justify-center w-full h-screen">
+        <div className="">
+          <Heading title="Let's Talk" />
+        </div>
         <div className=" flex justify-center items-center">
           <form
             action="https://formsubmit.co/varunraghu710@gmail.com"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full md:w-6/12 "
           >
             <input
               type="text"
@@ -32,7 +33,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white mt-5">
+            <button className="text-white mt-8">
               <a href="/" class="relative inline-block text-lg group">
                 <span class="relative z-10 block px-9 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                   <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>

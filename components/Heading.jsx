@@ -3,10 +3,10 @@ import HeadingSVG from "./HeadingSVG";
 export default function Heading({ title }) {
   return (
     <>
-      <div className="section-heading select-none">
-        <div className="heading flex items-center justify-center space-x-[3%] pb-5">
+      <div className="section-heading select-none py-8">
+        <div className="heading flex items-center justify-center space-x-[3%]">
           <HeadingSVG />
-          <h2 className="w-fit text-[2.5rem] lg:text-4xl font-medium uppercase text-secondary-600 text-laundry-blue ">
+          <h2 className="w-fit text-xl lg:text-4xl font-medium uppercase text-secondary-600 text-laundry-blue ">
             {title}
           </h2>
           <HeadingSVG />

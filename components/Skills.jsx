@@ -20,9 +20,10 @@ import Heading from "./Heading";
 const Skills = () => {
   return (
     <section>
-      <div id="skills" className="w-full lg:h-screen mb-[4rem]">
-        <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-          <Heading title="Skills" />
+      <div id="skills" className="w-full lg:h-screen">
+        <Heading title="Skills" />
+
+        <div className="max-w-[1240px] pb-12 mx-auto lg:mt-[-8rem] flex flex-col justify-center h-full">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mx-8">
             {/* java */}
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">

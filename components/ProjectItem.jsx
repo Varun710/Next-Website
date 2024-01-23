@@ -20,7 +20,7 @@ const Projects = ({ name, img, alt, link, tools = "" }) => {
         <div className="flex space-x-2 mb-3">
           {toolList.map((tool) => (
             <div key={tool} className="tool">
-              <p className="rounded-full bg-transparent border border-secondary-600 flex justify-center items-center px-4 py-1 text-secondary-600 text-body-4 2xl:text-3xl">
+              <p className="rounded-full bg-transparent border border-secondary-600 flex justify-center items-center px-4 py-1 text-secondary-600 text-body-4 small:text-sm 2xl:text-3xl">
                 {tool}
               </p>
             </div>

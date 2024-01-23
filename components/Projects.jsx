@@ -37,10 +37,10 @@ const projectsData = [
 ];
 const Project = () => {
   return (
-    <section className=" mx-auto my-16 text-center bg-black text-white p-12 flex-row">
+    <section className="text-center bg-black text-white pb-24 flex-row">
       {" "}
       <Heading title="Projects" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 px-12 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {" "}
         {projectsData.map((project, index) => (
           <ProjectItem key={index} {...project} />
